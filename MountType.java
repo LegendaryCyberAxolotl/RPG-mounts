@@ -1,3 +1,3 @@
 public interface MountType {
-    void move();
+    String move();
 }

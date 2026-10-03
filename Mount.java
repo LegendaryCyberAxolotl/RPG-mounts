@@ -12,6 +12,6 @@ public abstract class Mount {
     }
 
     public void move() {
-        type.move();
+        System.out.println(name + ": " + type.move());
     }
 }
